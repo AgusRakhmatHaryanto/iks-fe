@@ -6,7 +6,7 @@ export default function Home() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://63.250.52.19:8078/api/traffic-analysis/intersection")
+    fetch(process.env.NEXT_PUBLIC_API_URL)
       .then((res) => res.json())
       .then((json) => {
         const maxSaturation = Math.max(
