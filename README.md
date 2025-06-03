@@ -9,15 +9,19 @@ Aplikasi dashboard untuk analisis data lalu lintas berdasarkan data dari API.
 
 ## Cara Menjalankan
 
-1. Install dependencies:
+1. Buat file `.env` di root project, lalu isi dengan:
+   ```
+   NEXT_PUBLIC_API_URL=
+   ```
+2. Install dependencies:
    ```
    npm install
    ```
-2. Jalankan aplikasi:
+3. Jalankan aplikasi:
    ```
    npm run dev
    ```
-3. Buka di browser: [http://localhost:3000](http://localhost:3000)
+4. Buka di browser: [http://localhost:3000](http://localhost:3000)
 
 ## Struktur Data API
 
